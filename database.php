@@ -1,0 +1,14 @@
+<?php
+
+$db_server = "Localhost";
+$db_user = "root";
+$db_pass ="";
+$db_name = "employeedb";
+$conn = "";
+
+
+$conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
+
+
+
+?>

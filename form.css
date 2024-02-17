@@ -1,0 +1,67 @@
+/* Style the form on the contact page */
+body{
+    background-color: #e2c9a4;
+}
+
+.logo img {
+    width: 300px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+   
+}
+
+.logo{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: #3b5124;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input, text {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    background-color: #b2d056;
+    
+  
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #004080;
+  }
+  
+  footer {
+    background-color: #af8b54;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
